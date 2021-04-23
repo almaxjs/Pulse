@@ -19,6 +19,19 @@
             margin: 36px auto;
         }
     }
+    .carousel {
+        &__inner {
+            width: 550px;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -58,6 +71,25 @@
             line-height: 35px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 400px;
+        }
+        &__img {
+            width: 100%;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 20px;
+        }
+        &__tab {
+            width: 150px;
+            height: 35px;
+            font-size: 10px;
+            line-height: 35px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -88,6 +120,42 @@
         }
         h2 {
             line-height: 30px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 200px;
+        }
+        &__img {
+            width: 100%;
+        }
+        .slick-prev, .slick-next {
+            left: -33px;
+            img {
+                width: 20px;
+                height: 35px;
+            }
+        }
+        .slick-next {
+            right: -33px;
+            left: auto;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 20px;
+        }
+        &__content{
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 90px;
+            height: 25px;
+            font-size: 8px;
+            line-height: 25px;
+        }
+        h2 {
+            font-size: 20px;
         }
     }
 }
