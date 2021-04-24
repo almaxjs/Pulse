@@ -185,5 +185,18 @@
             text-align: center;
         }
     }
+    .footer {
+        &__info {
+            width: 270px;
+            height: 200px;
+            padding: 10px 10px 10px 10px;
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__social-item {
+            margin: 0 5px;
+        }
+    }
 }
         
