@@ -158,5 +158,32 @@
             font-size: 20px;
         }
     }
+    .comment {
+        h2 {
+            font-size: 25px;
+        }
+        &__block{
+            flex-direction: column;
+            padding: 0 20px 0 20px;
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        &__text {
+            margin-top: 20px;
+        }
+        &__subtitle {
+            text-align: center;
+        }
+        &__marafon {
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
 }
         
