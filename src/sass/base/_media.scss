@@ -198,5 +198,24 @@
             margin: 0 5px;
         }
     }
+    .modal {
+        width: 269px;
+        min-height: 350px;
+        padding: 10px 10px 10px 10px;
+        &__subtitle {
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+        .feed-form {
+            width: 250px;
+            align-items: center;      
+        }
+        h2 {
+            line-height: 30px;
+        }
+    }
 }
         
